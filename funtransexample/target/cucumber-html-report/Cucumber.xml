@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="8.203257">
+<testcase classname="Fund transcation" name="Enter registered payee and correct amount" time="8.203257">
+<system-out><![CDATA[Given fundtransfer url,and registerd payee..................................passed
+When enter "Tim"............................................................passed
+And enter correct "20"......................................................passed
+Then click on transfer button and validate with the messages "$20 transferred successfully to Tim!!".passed
+]]></system-out>
+</testcase>
+</testsuite>

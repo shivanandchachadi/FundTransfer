@@ -1,0 +1,89 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Enter registered payee and correct amount",
+        "description": "",
+        "id": "fund-transcation;enter-registered-payee-and-correct-amount;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 7793055045,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "fundtransfer url,and registerd payee",
+            "match": {
+              "location": "Stepdef.fundtransfer_url_and_registerd_payee()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 163742313,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "enter \"Tim\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Tim\"",
+                  "offset": 6
+                }
+              ],
+              "location": "Stepdef.enter(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 82410451,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "enter correct \"20\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"20\"",
+                  "offset": 14
+                }
+              ],
+              "location": "Stepdef.enter_correct(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 160593692,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click on transfer button and validate with the messages \"$20 transferred successfully to Tim!!\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"$20 transferred successfully to Tim!!\"",
+                  "offset": 56
+                }
+              ],
+              "location": "Stepdef.click_on_transfer_button_and_validate_with_the_messages(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Fund transcation",
+    "description": "",
+    "id": "fund-transcation",
+    "keyword": "Feature",
+    "uri": "myfile/example.feature",
+    "tags": []
+  }
+]
